@@ -11,3 +11,6 @@ export async function queryFakeList(params: {
 export async function getAllData() {
   return request('/bpi/student/getAllData')
 }
+export async function getData() {
+  return request('/bpi/student')
+}
